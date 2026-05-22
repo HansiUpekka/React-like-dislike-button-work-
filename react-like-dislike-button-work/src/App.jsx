@@ -8,7 +8,7 @@ function App() {
 
   return (
     <div className="page">
-      <h1 className="name">---Hansi Upekka Sithumini---</h1>
+      <h1 className="name">React with Vite is a lightweight setup for building modern React apps with fast development startup and instant hot module replacement. Vite uses native ES modules in the browser during development, so changes appear quickly without full rebuilds. It also provides a clean build pipeline for production using optimized bundling, making it a simple, speedy choice for small projects and scalable apps alike.</h1>
       <div className="controls">
         <button type="button" onClick={() => setLikes((count) => count + 1)}>
           Like ({likes})
