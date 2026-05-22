@@ -1,0 +1,59 @@
+.page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 28px;
+  padding: 24px;
+  text-align: center;
+}
+
+.name {
+  font-family: 'Georgia', 'Times New Roman', serif;
+  font-size: 28px;
+  font-weight: 600;
+  margin: 0;
+  color: #1a1a1a;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.controls button {
+  border: none;
+  background: #2f7de1;
+  color: #ffffff;
+  font-size: 16px;
+  padding: 10px 18px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: transform 0.1s ease, box-shadow 0.2s ease;
+  box-shadow: 0 4px 10px rgba(47, 125, 225, 0.25);
+}
+
+.controls button:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 6px 14px rgba(47, 125, 225, 0.35);
+}
+
+.controls button:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 6px rgba(47, 125, 225, 0.2);
+}
+
+.total {
+  font-size: 16px;
+  color: #1a1a1a;
+}
+
+@media (max-width: 600px) {
+  .controls {
+    flex-direction: column;
+  }
+}
